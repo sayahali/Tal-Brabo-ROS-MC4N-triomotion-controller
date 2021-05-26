@@ -74,7 +74,7 @@ MPOS:the measured position of the x axis
 
 Arm control steps:
 
-    5)Arm control:
+    5) Arm control:
 
 ==>to control the arm,run on the terminal: rosrun trio_motion_arm talarm_control
 
