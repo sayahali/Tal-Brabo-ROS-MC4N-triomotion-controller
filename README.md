@@ -6,7 +6,6 @@ Controlling a triomotion MC4N controller in order to move a Tal Brabo robotic ar
 
 -ros kinetic
 
-For those who want to excute cammands direcetly with linux,you need to
 
   2) Communication with Linux:
 
@@ -81,3 +80,8 @@ Arm control steps:
 ==>to control the arm,run on the terminal: rosrun trio_motion_arm talarm_control
 
 ==>to receive the position of the arm,run on the terminal: rosrun trio_motion_arm talarm_position
+
+For those who want to excute commands directly with linux,you need to do step 2 then extract the file TrioPC-x86_64.tgz,go inside the extracted folder and run these commands in terminal:
+-)make
+-)gcc  TrioPC_Linux_Test_cpp.cpp libTrioPC-x86_64.so -o TrioPC_Linux
+-)./TrioPC_Linux
