@@ -1,12 +1,14 @@
 # Tal-Brabo-ROS-MC4N-triomotion-controller
 Controlling a triomotion MC4N controller in order to move a Tal Brabo robotic arm under ROS and ubuntu 16.04
-    1) Tested system:
+  1) Tested system:
 
 -ubuntu 16.04
 
 -ros kinetic
 
-   2) Communication with Linux:
+For those who want to excute cammands direcetly with linux,you need to
+
+  2) Communication with Linux:
 
 The IP address of the controller is 192.168.0.250
 
@@ -24,7 +26,7 @@ Netmask: 24
 
 Gateway: 192.168.0.1
 
-    3) Installation:
+  3) Installation:
 
 3.1) copy the file libTrioPC-x86_64.so from:
 
@@ -40,7 +42,7 @@ source devel/setup.bash
 
 catkin_make
 
-    4)Programs explanation:
+  4) Programs explanation:
 
 For further ActiveX cammands informations please refer to ActiveX manual.
 
@@ -74,7 +76,7 @@ MPOS:the measured position of the x axis
 
 Arm control steps:
 
-    5) Arm control:
+  5) Arm control:
 
 ==>to control the arm,run on the terminal: rosrun trio_motion_arm talarm_control
 
