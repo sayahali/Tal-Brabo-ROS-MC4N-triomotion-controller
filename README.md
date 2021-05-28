@@ -82,6 +82,9 @@ Arm control steps:
 ==>to receive the position of the arm,run on the terminal: rosrun trio_motion_arm talarm_position
 
 For those who want to excute commands directly with linux,you need to do step 2 then extract the file TrioPC-x86_64.tgz,go inside the extracted folder and run these commands in terminal:
+
 -)make
+
 -)gcc  TrioPC_Linux_Test_cpp.cpp libTrioPC-x86_64.so -o TrioPC_Linux
+
 -)./TrioPC_Linux
